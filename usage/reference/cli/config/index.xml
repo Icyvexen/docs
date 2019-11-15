@@ -44,7 +44,7 @@ DESCRIPTION:
 &lt;h2 id=&#34;sample&#34;&gt;Sample&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;$ vela view config
 
-addr: https://vela-api.company.com
+addr: https://vela-server.localhost
 token: qwerty123
 api-version: v1
 log-level: info&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
@@ -84,7 +84,7 @@ DESCRIPTION:
 &lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;EXAMPLES:
  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;. Update CLI config with address.
-    $ vela update config --addr https://vela.company.com
+    $ vela update config --addr https://vela-server.localhost
  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2&lt;/span&gt;. Update CLI config with personal token.
     $ vela update config --token fakeToken
  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;. Update CLI config with specific API version.
@@ -94,7 +94,7 @@ DESCRIPTION:
 &lt;h2 id=&#34;sample&#34;&gt;Sample&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;$ vela update config --org github
 
-addr: https://vela-api.company.com
+addr: https://vela-server.localhost
 token: qwerty123
 api-version: v1
 log-level: info

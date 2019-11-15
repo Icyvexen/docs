@@ -48,15 +48,15 @@ DESCRIPTION:
  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;1&lt;/span&gt;. Generate CLI config from environment.
     $ vela generate config
  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;2&lt;/span&gt;. Generate CLI config with address and token.
-    $ vela generate config --addr https://vela.example.com --token fakeToken
+    $ vela generate config --addr https://vela-server.localhost --token fakeToken
  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;3&lt;/span&gt;. Generate CLI config with specific API version.
     $ vela generate config --api-version v1
  &lt;span style=&#34;color:#0000cf;font-weight:bold&#34;&gt;4&lt;/span&gt;. Generate CLI config with debug log level.
     $ vela generate config --log-level debug&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2 id=&#34;sample&#34;&gt;Sample&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;$ vela generate config --addr https://vela-api.company.com --token qwerty123
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;$ vela generate config --addr https://vela-server.localhost --token qwerty123
 
-addr: https://vela-api.company.com
+addr: https://vela-server.localhost
 token: qwerty123
 api-version: v1
 log-level: info&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;

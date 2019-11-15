@@ -25,14 +25,14 @@
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://go-vela.github.io/docs/usage/reference/cli/authentication/" />
-<meta property="article:modified_time" content="2019-11-15T09:54:59-06:00" />
+<meta property="article:modified_time" content="2019-11-15T10:40:28-06:00" />
 <meta itemprop="name" content="Authentication">
 <meta itemprop="description" content="Learn how to authenticate with the CLI.
 ">
 
 
-<meta itemprop="dateModified" content="2019-11-15T09:54:59-06:00" />
-<meta itemprop="wordCount" content="153">
+<meta itemprop="dateModified" content="2019-11-15T10:40:28-06:00" />
+<meta itemprop="wordCount" content="196">
 
 
 
@@ -1520,9 +1520,17 @@
 <h3 id="configuration-file">Configuration File</h3>
 
 <p>Log in and capture the personal token:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">vela --addr https://vela-api.company.com login</code></pre></div>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#8f5902;font-style:italic"># Syntax</span>
+vela --addr &lt;vela server url&gt; login
+
+<span style="color:#8f5902;font-style:italic"># Example</span>
+vela --addr https://vela-server.localhost login</code></pre></div>
 <p>Generate the configuration file:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">vela generate config --addr https://vela-api.company.com --token &lt;personal token&gt;</code></pre></div>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#8f5902;font-style:italic"># Syntax</span>
+vela generate config --addr &lt;vela server url&gt; --token &lt;personal token&gt;
+
+<span style="color:#8f5902;font-style:italic"># Example</span>
+vela generate config --addr https://vela-server.localhost --token qwerty123</code></pre></div>
 <p>The default path for this configuration file can be found @ <code>~/.vela/config.yml</code>.</p>
 
 <p><em>To see the file config file reference see the <a href="/vela/doc-site/reference/cli/config">config section</a>.</em></p>
@@ -1530,7 +1538,7 @@
 <h3 id="environment-variables">Environment Variables</h3>
 
 <p>Configure the environment with the <code>VELA_ADDR</code> environment variable:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#204a87">export</span> <span style="color:#000">VELA_ADDR</span><span style="color:#ce5c00;font-weight:bold">=</span>https://vela-api.company.com</code></pre></div>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#204a87">export</span> <span style="color:#000">VELA_ADDR</span><span style="color:#ce5c00;font-weight:bold">=</span>https://vela-server.localhost</code></pre></div>
 <p>Log in and capture the personal token:</p>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">vela login</code></pre></div>
 <p>Configure the environment with the <code>VELA_TOKEN</code> environment variable:</p>
@@ -1540,12 +1548,20 @@
 <h3 id="flags">Flags</h3>
 
 <p>Log in and capture the personal token:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">vela --addr https://vela-api.company.com login</code></pre></div>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#8f5902;font-style:italic"># Syntax</span>
+vela --addr &lt;vela server url&gt; login
+
+<span style="color:#8f5902;font-style:italic"># Example</span>
+vela --addr https://vela-server.localhost login</code></pre></div>
 <p>Pass the personal token as a flag argument:</p>
-<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">vela --addr https://vela-api.company.com --token &lt;personal token&gt; ...</code></pre></div>
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#8f5902;font-style:italic"># Syntax</span>
+vela --addr &lt;vela server url&gt; --token &lt;personal token&gt;
+
+<span style="color:#8f5902;font-style:italic"># Example</span>
+vela --addr https://vela-server.localhost --token qwerty123</code></pre></div>
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified November 15, 2019: <a  href="https://github.com/go-vela/docs/commit/271f5660765c6fda1c580a21de6230c1514c677c">auth doc tweaks (#22) (271f566)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified November 15, 2019: <a  href="https://github.com/go-vela/docs/commit/32fe9544a3740b43b3738e525bbb8b9e984836da">Change example URLs (32fe954)</a>
 </div>
 </div>
 

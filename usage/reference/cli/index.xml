@@ -102,9 +102,17 @@ sudo mv releases/vela /usr/local/bin/vela&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;configuration-file&#34;&gt;Configuration File&lt;/h3&gt;
 
 &lt;p&gt;Log in and capture the personal token:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;vela --addr https://vela-api.company.com login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Syntax&lt;/span&gt;
+vela --addr &amp;lt;vela server url&amp;gt; login
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Example&lt;/span&gt;
+vela --addr https://vela-server.localhost login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Generate the configuration file:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;vela generate config --addr https://vela-api.company.com --token &amp;lt;personal token&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Syntax&lt;/span&gt;
+vela generate config --addr &amp;lt;vela server url&amp;gt; --token &amp;lt;personal token&amp;gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Example&lt;/span&gt;
+vela generate config --addr https://vela-server.localhost --token qwerty123&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The default path for this configuration file can be found @ &lt;code&gt;~/.vela/config.yml&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;To see the file config file reference see the &lt;a href=&#34;https://go-vela.github.io/docs/vela/doc-site/reference/cli/config&#34;&gt;config section&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -112,7 +120,7 @@ sudo mv releases/vela /usr/local/bin/vela&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;environment-variables&#34;&gt;Environment Variables&lt;/h3&gt;
 
 &lt;p&gt;Configure the environment with the &lt;code&gt;VELA_ADDR&lt;/code&gt; environment variable:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;VELA_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela-api.company.com&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;color:#204a87&#34;&gt;export&lt;/span&gt; &lt;span style=&#34;color:#000&#34;&gt;VELA_ADDR&lt;/span&gt;&lt;span style=&#34;color:#ce5c00;font-weight:bold&#34;&gt;=&lt;/span&gt;https://vela-server.localhost&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Log in and capture the personal token:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;vela login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Configure the environment with the &lt;code&gt;VELA_TOKEN&lt;/code&gt; environment variable:&lt;/p&gt;
@@ -122,9 +130,17 @@ sudo mv releases/vela /usr/local/bin/vela&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h3 id=&#34;flags&#34;&gt;Flags&lt;/h3&gt;
 
 &lt;p&gt;Log in and capture the personal token:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;vela --addr https://vela-api.company.com login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Syntax&lt;/span&gt;
+vela --addr &amp;lt;vela server url&amp;gt; login
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Example&lt;/span&gt;
+vela --addr https://vela-server.localhost login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Pass the personal token as a flag argument:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;vela --addr https://vela-api.company.com --token &amp;lt;personal token&amp;gt; ...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Syntax&lt;/span&gt;
+vela --addr &amp;lt;vela server url&amp;gt; --token &amp;lt;personal token&amp;gt;
+
+&lt;span style=&#34;color:#8f5902;font-style:italic&#34;&gt;# Example&lt;/span&gt;
+vela --addr https://vela-server.localhost --token qwerty123&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
       </description>
     </item>
     

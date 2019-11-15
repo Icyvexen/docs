@@ -166,7 +166,7 @@
 
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;VELA_ADDR&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;&lt;code&gt;vela-server.company.com&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;vela-server.localhost&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;fully qualified domain name of the Vela server&lt;/td&gt;
 &lt;/tr&gt;
 

@@ -134,12 +134,12 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/cli/generate/config/</loc>
-    <lastmod>2019-11-08T12:38:24-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/api/build/create/</loc>
-    <lastmod>2019-11-11T06:31:49-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -159,12 +159,12 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/api/step/create/</loc>
-    <lastmod>2019-11-11T06:31:49-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/pipeline/environment/</loc>
-    <lastmod>2019-11-11T10:00:59-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -214,7 +214,7 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/cli/config/view/</loc>
-    <lastmod>2019-11-08T12:38:24-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -239,7 +239,7 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/cli/authentication/</loc>
-    <lastmod>2019-11-15T09:54:59-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -279,7 +279,7 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/api/step/get/</loc>
-    <lastmod>2019-11-11T06:31:49-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -304,7 +304,7 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/cli/config/update/</loc>
-    <lastmod>2019-11-08T12:38:24-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -364,7 +364,7 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/api/build/view/</loc>
-    <lastmod>2019-11-11T06:31:49-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -384,7 +384,7 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/api/step/view/</loc>
-    <lastmod>2019-11-11T06:31:49-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -489,7 +489,7 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/api/build/restart/</loc>
-    <lastmod>2019-11-11T06:31:49-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -534,7 +534,7 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/api/build/update/</loc>
-    <lastmod>2019-11-11T06:31:49-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>
@@ -554,7 +554,7 @@
   
   <url>
     <loc>https://go-vela.github.io/docs/usage/reference/api/step/update/</loc>
-    <lastmod>2019-11-11T06:31:49-06:00</lastmod>
+    <lastmod>2019-11-15T10:40:28-06:00</lastmod>
   </url>
   
   <url>

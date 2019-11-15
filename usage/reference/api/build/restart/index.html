@@ -25,14 +25,14 @@
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://go-vela.github.io/docs/usage/reference/api/build/restart/" />
-<meta property="article:modified_time" content="2019-11-11T06:31:49-06:00" />
+<meta property="article:modified_time" content="2019-11-15T10:40:28-06:00" />
 <meta itemprop="name" content="Restart">
 <meta itemprop="description" content="Learn how to restart a build.
 ">
 
 
-<meta itemprop="dateModified" content="2019-11-11T06:31:49-06:00" />
-<meta itemprop="wordCount" content="101">
+<meta itemprop="dateModified" content="2019-11-15T10:40:28-06:00" />
+<meta itemprop="wordCount" content="100">
 
 
 
@@ -1576,39 +1576,36 @@
 </table>
 
 <h2 id="example-response-body">Example Response Body</h2>
-
-<p>```json
-{
-    &ldquo;id&rdquo;: 1,
-    &ldquo;repo_id&rdquo;: 1,
-    &ldquo;number&rdquo;: 1,
-    &ldquo;parent&rdquo;: 1,
-    &ldquo;event&rdquo;: &ldquo;push&rdquo;,
-    &ldquo;status&rdquo;: &ldquo;created&rdquo;,
-    &ldquo;error&rdquo;: &ldquo;&rdquo;,
-    &ldquo;enqueued&rdquo;: 1563474077,
-    &ldquo;created&rdquo;: 1563474076,
-    &ldquo;started&rdquo;: 1563474077,
-    &ldquo;finished&rdquo;: 0,
-    &ldquo;deploy&rdquo;: &ldquo;&rdquo;,
-    &ldquo;clone&rdquo;: &ldquo;<a href="https://github.com/github/octocat.git&quot;" target="_blank">https://github.com/github/octocat.git&quot;</a>,
-    &ldquo;source&rdquo;: &ldquo;<a href="https://github.com/github/octocat/commit/48afb5bdc41ad69bf22588491333f7cf71135163&quot;" target="_blank">https://github.com/github/octocat/commit/48afb5bdc41ad69bf22588491333f7cf71135163&quot;</a>,
-    &ldquo;title&rdquo;: &ldquo;push received from <a href="https://github.com/github/octocat&quot;" target="_blank">https://github.com/github/octocat&quot;</a>,
-    &ldquo;message&rdquo;: &ldquo;First commit&hellip;&rdquo;,
-    &ldquo;commit&rdquo;: &ldquo;48afb5bdc41ad69bf22588491333f7cf71135163&rdquo;,
-    &ldquo;sender&rdquo;: &ldquo;OctoKitty&rdquo;,
-    &ldquo;author&rdquo;: &ldquo;OctoKitty&rdquo;,
-    &ldquo;branch&rdquo;: &ldquo;master&rdquo;,
-    &ldquo;ref&rdquo;: &ldquo;refs/heads/master&rdquo;,
-    &ldquo;base_ref&rdquo;: &ldquo;&rdquo;,
-    &ldquo;host&rdquo;: &ldquo;example.company.com&rdquo;,
-    &ldquo;runtime&rdquo;: &ldquo;docker&rdquo;,
-    &ldquo;distribution&rdquo;: &ldquo;linux&rdquo;
-}</p>
-
+<div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json"><span style="color:#000;font-weight:bold">{</span>
+  <span style="color:#204a87;font-weight:bold">&#34;id&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;repo_id&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;number&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;parent&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">1</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;event&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;push&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;status&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;created&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;error&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;enqueued&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">1563474077</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;created&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">1563474076</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;started&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">1563474077</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;finished&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#0000cf;font-weight:bold">0</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;deploy&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;clone&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;https://github.com/github/octocat.git&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;source&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;https://github.com/github/octocat/commit/48afb5bdc41ad69bf22588491333f7cf71135163&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;title&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;push received from https://github.com/github/octocat&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;message&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;First commit...&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;commit&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;48afb5bdc41ad69bf22588491333f7cf71135163&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;sender&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;OctoKitty&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;author&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;OctoKitty&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;branch&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;master&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;ref&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;refs/heads/master&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;base_ref&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;host&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;company.localhost&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;runtime&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;docker&#34;</span><span style="color:#000;font-weight:bold">,</span>
+  <span style="color:#204a87;font-weight:bold">&#34;distribution&#34;</span><span style="color:#000;font-weight:bold">:</span> <span style="color:#4e9a06">&#34;linux&#34;</span>
+<span style="color:#000;font-weight:bold">}</span></code></pre></div>
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified November 11, 2019: <a  href="https://github.com/go-vela/docs/commit/2571115db5450f03b3bbf1aa49b16b0a345a7927">Fix params wording (2571115)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified November 15, 2019: <a  href="https://github.com/go-vela/docs/commit/32fe9544a3740b43b3738e525bbb8b9e984836da">Change example URLs (32fe954)</a>
 </div>
 </div>
 
