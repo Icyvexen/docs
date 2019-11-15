@@ -266,7 +266,7 @@
     "url": "https://go-vela.github.io/docs/usage/reference/cli/authentication/",
     "display": "Reference/Cli/Authentication",
     "title": "Authentication",
-    "content": "to authenticate with vela, users need provide the server address personal token. there are three ways token cli: configuration file (recommended) environment variables flags log capture token: vela --addr https://vela-api.company.com login generate file: config --token &lt;personal token&gt; default path for can be found ~/.vela/config.yml. see reference section. configure vela_addr variable: export vela_addr=https://vela-api.company.com vela_token vela_token=&lt;personal it recommended add these terminal profile (~/.bashrc ~/.zshrc) https://vela-api.company ``.com pass as flag argument: ... "
+    "content": "to authenticate with vela, users need provide the server address personal token. there are three ways token cli: configuration file (recommended) environment variables flags log capture token: vela --addr https://vela-api.company.com login generate file: config --token &lt;personal token&gt; default path for can be found ~/.vela/config.yml. see reference section. configure vela_addr variable: export vela_addr=https://vela-api.company.com vela_token vela_token=&lt;personal it recommended add these terminal profile (~/.bashrc ~/.zshrc) pass as flag argument: ... "
     },
 
     {
